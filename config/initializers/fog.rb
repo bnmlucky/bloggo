@@ -1,3 +1,5 @@
+require 'aws-sdk-s3'
+
 CarrierWave.configure do |config|
     config.fog_credentials = {
         :provider => "AWS",
